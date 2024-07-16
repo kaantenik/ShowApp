@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="font-sans text-gray-900 bg-gray-100">
+  <header class="p-4 bg-black">
+    <div class="container mx-auto">
+      <h1 class="text-2xl font-bold text-white"></h1>
+  <div class="mb-4">
+      <%= image_tag 'image4.png', alt: 'Image 4' %>
+    </div>
+      
+    </div>
+  </header>
+
+  <main class="container p-4 mx-auto">
+    <div class="mb-6 text-center">
+      <h2 class="mb-2 text-3xl font-semibold text-gray-800">WhatsApp'ı İndir</h2>
+      <p class="mb-4 text-lg text-gray-700">WhatsApp'ı indirerek, arkadaşlarınızla ve ailenizle iletişimde kalın.</p>
+     
+    </div>
+    
+    <div class="relative mb-8 image-container ">
+      <%= image_tag 'image1.png', alt: 'Image 1', class: 'w-full rounded-2xl' %>
+      <div class="absolute inset-0 flex flex-col items-center justify-center p-6 text-white bg-black bg-opacity-50 rounded-lg">
+        <h1 class="mb-2 text-2xl font-semibold">Mesajlaşırken gizliliğinizi koruyun.</h1>
+        <p class="mb-4"> Dünyanın her yerinde ücretsiz kullanılabilen basit, güvenilir, özel mesajlaşma ve arama.</p>
+        <a href="https://www.whatsapp.com/download" class="px-4 py-2 text-white transition bg-green-600 rounded hover:bg-green-700">İndir</a>
+      </div>
+    </div>
+  </main>
+  
+    <div class="flex items-center mb-8 image-container">
+      <div class="flex-1">
+        <%= image_tag 'image2.png', alt: 'Image 2' %>
+      </div>
+      <div class="flex-1 p-6 text-white bg-black bg-opacity-50 rounded-lg">
+        <h1 class="mb-2 text-2xl font-semibold">Sesli ve görüntülü aramalarla hiçbir anı kaçırmayın.</h1>
+        <p class="text-left"> Sesli ve görüntülü aramalar sayesinde, sınıf arkadaşlarınızla yapacağınız bir grup aramasından annenizle yapacağınız kısa bir görüşmeye kadar her durumda sanki aynı odadaymışsınız gibi hissedin.</p>
+      </div>
+    </div>
+
+    <div class="flex items-center mb-8 image-container">
+      <div class="flex-1">
+        <%= image_tag 'image3.png', alt: 'Image 3' %>
+      </div>
+      <div class="flex-1 p-6 text-white bg-black bg-opacity-50 rounded-lg">
+        <h1 class="mb-2 text-2xl font-semibold">Özgürce konuşun.</h1>
+        <p class="text-left">Uçtan uca şifreleme sayesinde kişisel mesaj ve aramalarınız güvence altına alınır. Gönderilen içerikler yalnızca siz ve konuştuğunuz kişi tarafından okunabilir veya dinlenebilir. WhatsApp dahil olmak üzere aradaki hiç kimse okuyamaz veya dinleyemez.</p>
+      </div>
+    </div>
+    
+      <div class="flex justify-center ">
+        <%= image_tag 'image5.png', alt: 'Image 5' %>
+      </div>
+    
+ 
+<footer class="p-8 text-white bg-black">
+    <div class="container mx-auto text-center">
+      <div class="flex items-center mb-4">
+        <%= image_tag 'image4.png', alt: 'Image 4' %>
+      </div>
+      <div class="mt-2 text-left">
+        <a href="https://www.whatsapp.com/download" class="px-4 py-2 text-white transition bg-green-600 rounded hover:bg-green-700">İndir</a>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4 mt-8">
+        <div>
+          <h3 class="text-lg font-semibold">Ne yapıyoruz?</h3>
+          <ul>
+            <li>Özellikler</li>
+            <li>Blog</li>
+            <li>Güvenlik</li>
+            <li>İşletmeler İçin</li>
+            <li>Biz kimiz?</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold">Hakkımızda</h3>
+          <ul>
+            <li>Kariyer Olanakları</li>
+            <li>Marka Merkezi</li>
+            <li>Gizlilik</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold">WhatsApp'ı kullanın</h3>
+          <ul>
+            <li>Android</li>
+            <li>iPhone</li>
+            <li>Mac/PC</li>
+            <li>WhatsApp Web</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold">Yardıma mı ihtiyacınız var?</h3>
+          <ul>
+            <li>Bizimle İletişime Geçin</li>
+            <li>Yardım Merkezi</li>
+            <li>İndir</li>
+            <li>Güvenlik Tavsiyeleri</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="mt-8">2024 © WhatsApp LLC</p>
+      <p>Koşullar ve Gizlilik İlkesi | Site haritası</p>
+    </div>
+  </footer>
+</body>
+</html>

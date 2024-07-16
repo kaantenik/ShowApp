@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobil Uygulama Tanıtımı</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-white bg-green-500">
+  <header class="p-4 bg-green-600">
+    <nav class="container flex items-center justify-between mx-auto">
+      <ul class="flex space-x-4">
+  <li><%= link_to 'Ana Sayfa', root_path, class: 'text-white hover:text-gray-200' %></li>
+  <li><%= link_to 'Hakkımızda', about_path, class: 'text-white hover:text-gray-200' %></li>
+  <li><%= link_to 'İletişim', new_contact_path, class: 'text-white hover:text-gray-200' %></li>
+</ul>
+
+    </nav>
+  </header>
+
+  <div class="container mx-auto">
+    <%= yield %>
+  </div>
+
+</body>
+</html>
